@@ -36,26 +36,36 @@ Baseline comparison: Moving Average, ARIMA.<br>
 Graphical representation of actual vs predicted values.<br>
 <br>
 
-# 📈 Results
-The LSTM model demonstrated superior performance in stock market prediction:<br>
-<br>
-Figure1: The above diagram depicts the predicted values<br>
-<img width="322" alt="image" src="https://github.com/user-attachments/assets/7e5e992f-75e4-41ef-acf6-4d0c513714af" /><br>
-<br>
-Figure 2: The above graph depicts the relation between predicted and actual values.<br>
-(Blue-actual price, Red-Predicted price)
-<img width="404" alt="image" src="https://github.com/user-attachments/assets/38094588-eaf0-4b88-a341-7ac07cc475c8" />
-<br>
+## 📈 Results
+
 The performance of the **LSTM model** was evaluated against traditional forecasting models, including **Moving Average** and **ARIMA**. The results demonstrate that LSTM outperforms these methods in terms of **Mean Absolute Error (MAE)** and **Correlation Coefficient**.
-<br>
-## 📊 Model Performance Comparison
-<br>
+
+### 📊 Model Performance Comparison
+
 | Model          | Mean Absolute Error (MAE) | Correlation Coefficient (r) |
 |---------------|--------------------------|------------------------------|
 | **LSTM (Proposed Model)** | **1.17** | **0.996** |
 | Moving Average | 2.49 | 0.944 |
 | ARIMA | 1.49 | 0.983 |
-<br>
+
+### 📈 Visualization of Predicted vs. Actual Stock Prices
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/7e5e992f-75e4-41ef-acf6-4d0c513714af" width="400" />
+</p>
+<p align="center"><strong>Figure 1:</strong> The above diagram depicts the predicted values.</p>
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/38094588-eaf0-4b88-a341-7ac07cc475c8" width="400" />
+</p>
+<p align="center"><strong>Figure 2:</strong> The above graph depicts the relation between predicted and actual values.<br>(Blue-Actual price, Red-Predicted price)</p>
+
+### 📌 Key Observations
+- The **LSTM model** achieved the **lowest MAE (1.17)**, indicating a more accurate prediction.
+- LSTM’s **correlation coefficient (0.996)** shows a near-perfect relationship with actual stock prices.
+- The **Moving Average and ARIMA models** performed reasonably well but showed higher errors compared to LSTM.
+
+
 ## 📌 Key Observations
 - The **LSTM model** achieved the **lowest MAE (1.17)**, indicating a more accurate prediction.<br>
 - LSTM’s **correlation coefficient (0.996)** shows a near-perfect relationship with actual stock prices.<br>
