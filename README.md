@@ -1,0 +1,2 @@
+# sherurox-Stock-Market-Analysis-using-Heuristic-Approach
+This repository contains the code and documentation for Stock Market Analysis using Heuristic Approach, which explores the use of Long Short-Term Memory (LSTM) networks for stock price prediction. The research is based on historical stock data, and the model aims to provide more accurate market trend analysis compared to traditional models.
